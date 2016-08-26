@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<title>Calculator 0.1</title>
-		<!--<link rel="stylesheet" href="style.css" type="text/css"></link>-->
 		<link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}" type="text/css"></link>		
 	</head>
 	<body>
@@ -78,6 +77,6 @@
 		</div>
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    	<script src="app.js"></script>
+    	<script src="{{ "/js/CalcApp.js" | prepend: site.baseurl }}"></script>
 	</body>
 </html>
