@@ -1,8 +1,8 @@
 ---
-layout: CalcApp
+layout: post
 title:  "Calculator 0.1"
 date:   2016-08-15 07:06:11 +0300
-categories: mycat
+categories: calcapp
 ---
 Test view.
     <link rel="stylesheet" href="style.css" type="text/css"></link>
